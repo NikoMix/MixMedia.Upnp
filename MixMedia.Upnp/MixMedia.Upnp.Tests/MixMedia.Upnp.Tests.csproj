@@ -67,12 +67,6 @@
       <LastGenOutput>DeviceTestMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MixMedia.Upnp\MixMedia.Upnp.csproj">
-      <Project>{9EDB3509-824D-4EB7-82E3-AD9118DB939A}</Project>
-      <Name>MixMedia.Upnp</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
