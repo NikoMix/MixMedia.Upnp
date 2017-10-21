@@ -3,12 +3,12 @@ using Xunit;
 
 namespace MixMedia.Upnp.Tests
 {
-    public class UnitTest1
+    public class DiscoveryUnitTests
     {
         [Fact]
-        public void Test1()
+        public void Discovery()
         {
-
+           Upnp.Discovery.Search()
         }
     }
 }
